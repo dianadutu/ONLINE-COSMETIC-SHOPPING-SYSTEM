@@ -1,4 +1,4 @@
-package com.example.idk.idk;
+package com.example.makeup.makeup;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

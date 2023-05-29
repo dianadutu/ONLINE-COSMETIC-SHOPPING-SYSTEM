@@ -1,6 +1,6 @@
-package com.example.idk.idk.Repository;
+package com.example.makeup.makeup.Repository;
 
-import com.example.idk.idk.Entity.Makeup;
+import com.example.makeup.makeup.Entity.Makeup;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

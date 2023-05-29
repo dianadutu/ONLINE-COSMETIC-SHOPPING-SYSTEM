@@ -1,7 +1,7 @@
-package com.example.idk.idk.Service;
+package com.example.makeup.makeup.Service;
 
-import com.example.idk.idk.Entity.Makeup;
-import com.example.idk.idk.Repository.MakeupRepository;
+import com.example.makeup.makeup.Entity.Makeup;
+import com.example.makeup.makeup.Repository.MakeupRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

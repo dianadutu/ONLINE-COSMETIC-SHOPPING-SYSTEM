@@ -1,4 +1,4 @@
-package com.example.idk.idk.Entity;
+package com.example.makeup.makeup.Entity;
 
 import jakarta.persistence.*;
 

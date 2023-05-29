@@ -1,10 +1,10 @@
-package com.example.idk.idk;
+package com.example.makeup.makeup;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IdkApplicationTests {
+class MakeupApplicationTests {
 
 	@Test
 	void contextLoads() {
