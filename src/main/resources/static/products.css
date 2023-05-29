@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pink {
+    width: 100%;
+    display: block;
+}
+.pink::after {
+    content: "DIANA";
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: pink;
+    color: black;
+    padding-left: 10px;
+    font-size: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin: 0;
+}
+
+.sidebar {
+    position: absolute;
+    top: 100px; /* Adjust the top value to position the sidebar */
+    left: 0;
+    width: 160px;
+    height: calc(100% - 100px); /* Calculate the height based on the pink line's height */
+    border-top: 5px solid grey;
+    margin-top: 0%;
+    border-right: 5px solid grey;
+    height: 600px;
+    padding-left: 0.3%;
+    overflow-y: auto;
+
+}
+.category-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+.category-list li {
+    margin-bottom: 10px; /* Distance between face eyes & lips*/
+}
+.category-list a {
+    text-decoration: none;
+    color: hotpink;
+    display: block;
+
+}
+
+.search-bar {
+    position: absolute;
+    top: 30px; /* Adjust the top value to position the search bar */
+    left: 45%; /* Adjust the left value to center the search bar */
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 1000px; /* Adjust the width as needed */
+    background-color: pink;
+
+
+}
+
+.search-bar input[type="text"] {
+    width: 900px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.search-bar input[type="submit"] {
+    padding: 5px 10px;
+    background-color: white;
+    color: pink;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+.login-button {
+    position: absolute;
+    top: 50%;
+    right: -190px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: white;
+    color: pink;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-button {
+    position: fixed;
+    top: 27px;
+    right: 10px;
+    background-color: pink;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 10px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgrey;
+}
+
+.custom-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.product-row {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.product {
+    flex: 1;
+}
+
+.product-image {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+}
+
+.add-to-cart {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+
+
+
